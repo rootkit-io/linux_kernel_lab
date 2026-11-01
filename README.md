@@ -6,7 +6,7 @@ A public record of my progress in Linux kernel and driver development: small exp
 
 I’m starting with loadable kernel modules and working toward device drivers. Along the way, I want to understand how the kernel manages memory, exposes interfaces to userspace, coordinates concurrent execution, and cleans up when something fails.
 
-**Current stage:** repository setup. The first milestone is building, loading, and unloading a minimal module inside a Linux VM.
+**Current stage:** repository setup. The first milestone is building, loading, and unloading a minimal module inside Ubuntu 24.04.5 LTS x86_64.
 
 > Educational code under active development. Run these experiments in a disposable Linux VM; faulty kernel code can crash or corrupt the guest.
 
